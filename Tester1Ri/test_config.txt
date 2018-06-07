@@ -1,0 +1,26 @@
+#0 : depth first
+#1 : best first
+#2 : breadth first
+#3 : depth first + memo
+#4 : best first + memo
+#5 : breadth first + memo
+#6 : depth first + solution memo
+#10: sipsi
+#20: only generate data
+#30: compute stat by reading results from file.
+VERSION=20
+SIZE_START=70
+SIZE_STEP=10
+INS_START=
+SOLVER_PATH=sipsi.exe
+
+
+
+INS_FILE=ins.txt
+SOLVER_SOL_FILE=sol.txt
+
+#All results are written here, one instance per line
+OUTPUT_FILE=res.txt
+
+#The statistic file, one pb size per line
+STAT_FILE=stat.txt
